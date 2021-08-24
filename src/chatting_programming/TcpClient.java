@@ -6,14 +6,17 @@ import com.framework.TcpApplication;
 
 public class TcpClient {
 	public static void main(String[] args) {
-		
-		for(int i=0; i<20; i++) {
+		for(int i=0; i<15; i++) {
 			System.out.println("");
-			
 		}
-		showMenu();
-		Scanner sc = new Scanner(System.in);
 		
+		showMenu();
+		
+		for(int i=0; i<15; i++) {
+			System.out.println("");
+		}
+		
+		Scanner sc = new Scanner(System.in);		
 		System.out.printf("          >");
 		int select = sc.nextInt();
 		

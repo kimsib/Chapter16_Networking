@@ -1,3 +1,3 @@
 cd ..
-java -cp bin Chatting_programming.TcpServer
+java -cp bin chatting_programming.TcpServer
 pause>nul

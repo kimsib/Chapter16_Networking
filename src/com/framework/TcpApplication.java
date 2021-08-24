@@ -73,7 +73,7 @@ public abstract class TcpApplication {
 	
 	
 	
-	private static String timeStamp() {
+	public static String timeStamp() {
 		SimpleDateFormat format = new SimpleDateFormat("[hh:mm:ss");
 
 		return format.format(new Date());
